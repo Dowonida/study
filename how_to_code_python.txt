@@ -1,0 +1,18 @@
+공식: pep8 https://peps.python.org/pep-0008/
+	maximum line length #한 줄에 79자 이내로 권장
+	피해야할 글자 소문자L, 대문자i 대문자 O를 하나만쓰기 등
+
+각 회사마다 따로 있기도 함
+
+식별자
+import keyword
+print(keyword.kwlist)
+
+\n \t \\\ \' \"는 아는데 'r은 커서를 맨 앞으로 
+
+
+문자안에 변수쓰기
+옛날
+'hello, %s'%name (S tring)
+'score is %d' % score (d int)
+'score is %f' % score (F loat)
